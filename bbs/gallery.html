@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>갤러리 리스트 페이지</title>
+    
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <div id="headerArea">
+        <header id="header" class="flex-container">
+
+            <div id="headerLogoArea">
+                <img src="../images/headerLogo.png" alt="로고"
+                    width="128">                
+            </div>
+            <!-- div#headerLogoArea -->
+
+            <div id="headerMenuArea">
+                <nav id="headerLnb">
+                    <ul id="headerLnbMainMenu" class="flex-container">
+                        <li class="headerLnbMainLi"><a href="#">ORDER</a></li>
+                        <li class="headerLnbMainLi"><a href="#">LOGIN</a></li>
+                        <li class="headerLnbMainLi"><a href="#">JOIN</a></li>
+                    </ul>
+                </nav>
+                <!-- nav#headerLnb -->
+
+                <div id="cartNlistMenu" class="flex-container">
+
+                    <div id="cartLink">
+                        <span id="cartGoodsCnt">0</span>
+                    </div>
+                    <!-- div#cartLink -->
+
+                    <div id="sideMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <!-- div#sideMenu -->
+
+                </div>
+                <!-- div#cartNlistMenu -->
+
+            </div>
+            <!-- div#headerMenuArea -->
+
+        </header>
+        <!-- header#header -->
+    </div>
+    <!-- div#headerArea -->
+    <div id="wrap">
+        <div id="goodsPart">All</div>
+        <main id="galleryListArea" class="flex-container">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="../images/goods.jpg" alt="1" width="320">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="goodsName">헤리터 시그니처 칼도마세트 (월넛)</td>
+                    </tr>
+                    <tr>
+                        <td class="goodsDesc">월넛 색상의 해리터 식과도&도마 세트</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="basicPrice">355000</span>
+                            <span class="salePrice">289000</span>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><span class="replyCnt">0</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </main>
+    </div>
+    <script src="../script/jquery-3.6.0.min.js"></script>
+    <script src="../script/script.js"></script>
+</body>
+</html>

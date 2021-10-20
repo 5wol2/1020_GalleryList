@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url(style_Reset.css);
+
+div#headerArea {
+    padding: 2px 0;
+    /* border: 1px solid #000; */
+    background-color: #f1e7d5;
+}
+
+
+header#header {
+    width: 1000px;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+
+    justify-content: space-between;
+}
+
+
+/* div#headerLogoArea 시작 */
+#headerArea #headerLogoArea {
+    margin-top: 66px;
+}
+/* div#headerLogoArea 끝 */
+
+
+/* div#headerArea nav#headerLnb 시작 */
+#headerArea nav#headerLnb {
+    /* border: 1px solid #000; */
+    margin: 16px 0;
+}
+#headerArea nav#headerLnb li>a {
+    color: #5f4a38;
+    font-size: 12px;
+    font-family: 'Jost', sans-serif;    
+    margin: 0 6px;
+}
+
+#headerArea div#cartNlistMenu {    
+    /* border: 1px solid #000; */
+    margin: 31px 0 38px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#headerArea div#cartLink {
+    width: 48px;
+    height: 36px;
+    /* border: 1px solid #f80; */
+    margin: 0 18px;
+    background-image: url(../images/btn_cart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 48px 36px;
+}
+
+#headerArea #cartLink span#cartGoodsCnt {
+    width: 14px;
+    height: 14px;
+    color: #fff;
+    font-size: 10px;    
+    text-align: center;
+    line-height: 14px;
+    border-radius: 50%;
+    background-color: #0024ff;
+    display: inline-block;
+}
+
+#headerArea div#sideMenu {
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid #f80; */
+}
+
+#headerArea div#sideMenu span {
+    width: 100%;
+    height: 2px;
+    margin: 10px 0 9px;
+    background-color: #5f4a38;    
+    display: block;
+}
+
+#headerArea div#sideMenu span:nth-child(2) {
+    width: 70%;
+}
+#headerArea div#sideMenu span:nth-child(3) {
+    width: 40%;
+}
+/* div#headerArea nav#headerLnb 끝 */
+div#wrap{
+    width: 1000px;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+}
+#wrap div#goodsPart{
+    font-size: 19px;
+    font-family: batang, sans-serif;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+}
+main#galleryListArea{
+    flex-wrap: wrap;
+}
+main#galleryListArea>table {
+    text-align: center;
+    /* border: 1px solid #000; */
+    margin-bottom: 30px;
+    flex:1;
+}
+
+main#galleryListArea>table td{
+    color:#5f4a38;
+    padding: 3px 0;
+
+}
+main#galleryListArea>table td.goodsDesc{
+    color: #5f4a38;
+    font-size: 12px;
+}
+main#galleryListArea>table td.goodsDes span{
+    font-size: 14px;
+}
+main#galleryListArea>table td.goodsDes span::after{
+    content: "원";
+}
+main#galleryListArea>table span.basicPrice{
+    text-decoration: line-through;
+    color: #5f4a38;
+}
+main#galleryListArea>table span.salePrice{
+    color: #715844;
+    font-weight: bold;
+}
+main#galleryListArea>table span.replyCnt{
+    font-size: 12px;
+    width: 90px;
+    height: 20px;
+    line-height: 19px;
+    border: 1px solid #000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;   
+    display: inline-block;
+    background-color: #f1e7d5;
+}
+main#galleryListArea>table span.replyCnt::before{
+    content: "RE:";
+}
